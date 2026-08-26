@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatización Laboratorio — Alejandro Ayala</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;800&family=Caveat:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="case-study-body">
+
+    <!-- Barra de navegación superior -->
+    <header class="topbar">
+        <a href="index.html#proyectos" class="topbar-logo"><i class="fa-solid fa-arrow-left"></i><span>Volver a la bitácora</span></a>
+        <div class="case-nav-meta">
+            <span class="meta-tag" style="--accent:#B3382C">REG·01</span>
+            <span class="meta-title">Automatización Laboratorio UV</span>
+        </div>
+        <a href="index.html" class="topbar-logo">AA<span>·</span><em>cuaderno 04</em></a>
+    </header>
+
+    <main class="case-main">
+        <!-- ============ HERO DEL CASO DE ESTUDIO ============ -->
+        <section class="case-hero">
+            <div class="case-hero-content reveal">
+                <div class="case-badges">
+                    <span class="case-chip" style="background: rgba(179,56,44,0.1); color: #B3382C; border-color: rgba(179,56,44,0.3);">UX/UI Design</span>
+                    <span class="case-chip">Mobile App UI</span>
+                    <span class="case-chip">Figma</span>
+                </div>
+                <h1 class="case-title">Automatización Laboratorio Alimentos y Bebidas</h1>
+                <p class="case-lead">
+                    Diseño de interfaz móvil para la automatización de accesos, reservas y gestión de reportes en el Laboratorio de la Facultad de Administración de la Universidad Veracruzana.
+                </p>
+            </div>
+
+            <!-- Ficha de datos clave -->
+            <div class="case-specs-card reveal">
+                <span class="washi washi-l"></span>
+                <span class="washi washi-r"></span>
+                <h3>Expediente Técnico</h3>
+                <ul>
+                    <li><strong>Rol:</strong> Diseñador UX/UI Líder</li>
+                    <li><strong>Institución:</strong> Universidad Veracruzana</li>
+                    <li><strong>Plataforma:</strong> Aplicación Móvil (UI/UX)</li>
+                    <li><strong>Impacto:</strong> Digitalización completa de procesos y turnos</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ============ MOCKUP / PANTALLA PRINCIPAL (LOGIN) CON ZOOM ============ -->
+        <section class="case-banner reveal">
+            <div class="banner-frame">
+                <span class="washi washi-l"></span>
+                <span class="washi washi-r"></span>
+                <div class="banner-image-container phone-mockup-container">
+                    <img src="inicio_proy1.png" alt="Pantalla de Inicio de Sesión - Lab Alimentos y Bebidas" class="zoomable-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="image-placeholder-large">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <span>Haz clic para ampliar la pantalla de Inicio de Sesión</span>
+                    </div>
+                </div>
+                <span class="pin-note">clic para hacer zoom 🔍</span>
+            </div>
+        </section>
+
+        <!-- ============ MÉTRICAS DE IMPACTO ============ -->
+        <section class="case-metrics reveal">
+            <div class="metric-box">
+                <span class="metric-num">-45%</span>
+                <span class="metric-label">Tiempos de asignación de turnos</span>
+            </div>
+            <div class="metric-box">
+                <span class="metric-num">100%</span>
+                <span class="metric-label">Digitalización de procesos del laboratorio</span>
+            </div>
+            <div class="metric-box">
+                <span class="metric-num">UCD</span>
+                <span class="metric-label">Enfoque centrado en estudiantes y UV</span>
+            </div>
+        </section>
+
+        <!-- ============ DESARROLLO DEL CASO ============ -->
+        <section class="case-content-grid">
+            <div class="case-block reveal">
+                <h2>01. El Problema &amp; Contexto</h2>
+                <p>
+                    El Laboratorio de Alimentos y Bebidas de la Facultad operaba con registros físicos y controles manuales propensos a errores de captura, saturación de horarios y dificultades en el seguimiento de prácticas por parte de los alumnos.
+                </p>
+                <blockquote class="case-quote">
+                    "¿Cómo estructurar un flujo móvil intuitivo que permita a la comunidad universitaria gestionar accesos y reportes sin fricción?"
+                </blockquote>
+            </div>
+
+            <div class="case-block reveal">
+                <h2>02. Investigación &amp; Requerimientos</h2>
+                <p>
+                    Se mapearon los requerimientos institucionales de la UV estructurando las pantallas clave: desde el acceso seguro con matrícula hasta la visualización de calendarios, inventarios y estadísticas.
+                </p>
+                <ul class="case-list-checks">
+                    <li><i class="fa-solid fa-check"></i> Autenticación rápida mediante matrícula institucional.</li>
+                    <li><i class="fa-solid fa-check"></i> Navegación lateral simplificada para control de opciones.</li>
+                    <li><i class="fa-solid fa-check"></i> Paneles informativos con gráficas de uso y reportes.</li>
+                </ul>
+            </div>
+
+            <!-- ============ SECCIÓN DE FLUJOS DE USUARIO Y PANTALLAS (CON ZOOM INTERACTIVO) ============ -->
+            <div class="case-block reveal full-width">
+                <h2>03. Flujos de Usuario &amp; Arquitectura de Pantallas (Figma)</h2>
+                <p>
+                    Diseño completo del sistema móvil en Figma. <strong>Haz clic en cualquier pantalla de la cuadrícula para verla en tamaño grande con zoom.</strong>
+                </p>
+                
+                <div class="mobile-screens-grid">
+                    <div class="mobile-screen-card">
+                        <div class="screen-thumb">
+                            <img src="menu_proy1.png" alt="Menú y navegación" class="zoomable-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="placeholder-sm"><span>Menú / Drawer</span></div>
+                        </div>
+                        <p class="screen-label">Navegación y Opciones</p>
+                    </div>
+                    <div class="mobile-screen-card">
+                        <div class="screen-thumb">
+                            <img src="horarios_proy1.png" alt="Calendario de reservas" class="zoomable-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="placeholder-sm"><span>Calendario / Horarios</span></div>
+                        </div>
+                        <p class="screen-label">Selección de Horarios</p>
+                    </div>
+                    <div class="mobile-screen-card">
+                        <div class="screen-thumb">
+                            <img src="inventario_proy1.png" alt="Inventario de equipos" class="zoomable-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="placeholder-sm"><span>Inventario</span></div>
+                        </div>
+                        <p class="screen-label">Gestión de Equipo</p>
+                    </div>
+                    <div class="mobile-screen-card">
+                        <div class="screen-thumb">
+                            <img src="estadisticas_proy1.png" alt="Estadísticas y gráficas" class="zoomable-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="placeholder-sm"><span>Estadísticas</span></div>
+                        </div>
+                        <p class="screen-label">Reportes y Gráficas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-block reveal">
+                <h2>04. Solución de Interfaz (UI)</h2>
+                <p>
+                    Se respetó la identidad institucional de la Universidad Veracruzana integrando el escudo oficial y los colores institucionales (azul y verde), combinados con elementos limpios de diseño móvil moderno.
+                </p>
+            </div>
+
+            <div class="case-block reveal">
+                <h2>05. Resultados &amp; Conclusión</h2>
+                <p>
+                    Este prototipo interactivo en Figma resolvió las necesidades operativas del laboratorio, ofreciendo una experiencia digital fluida, accesible y totalmente adaptada a la comunidad de la Facultad de Administración.
+                </p>
+            </div>
+        </section>
+
+        <!-- ============ NAVEGACIÓN ENTRE PROYECTOS ============ -->
+        <nav class="case-pagination reveal">
+            <a href="index.html#proyectos" class="btn-outline" style="border-color: var(--ink); color: var(--ink);">
+                <i class="fa-solid fa-arrow-left"></i> Volver a la bitácora
+            </a>
+            <a href="proyecto-2.html" class="btn-primary">
+                Siguiente proyecto: AletheumX <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </nav>
+    </main>
+
+    <!-- ============ VENTANA MODAL / LIGHTBOX PARA ZOOM DE IMAGEN ============ -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content-wrapper">
+            <img id="modalImage" class="modal-image" src="" alt="Vista ampliada">
+        </div>
+        <div class="modal-instructions">Usa la rueda del mouse o haz doble clic para acercar/alejar el zoom</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer reveal" style="margin-top: 80px;">
+        <p class="section-eyebrow section-eyebrow--dark">Contraportada</p>
+        <h2 class="footer-title">¿Construimos algo<br>juntos?</h2>
+        <div class="footer-actions">
+            <a href="https://wa.me/522294108976" target="_blank" class="btn-primary btn-primary--light">WhatsApp <i class="fa-brands fa-whatsapp"></i></a>
+            <span class="btn-outline" style="cursor: default; display: inline-flex; align-items: center;">xochicale832@gmail.com</span>
+        </div>
+        <p class="footer-fine">Alejandro Ayala · Diseñador UX/UI · Veracruz, México</p>
+    </footer>
+
+    <!-- Script de interactividad y zoom -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const closeBtn = document.querySelector('.modal-close');
+            const zoomableImgs = document.querySelectorAll('.zoomable-img');
+
+            let scale = 1;
+            let panning = false;
+            let pointX = 0;
+            let pointY = 0;
+            let startX = 0;
+            let startY = 0;
+
+            // Abrir modal al hacer clic en cualquier imagen interactiva
+            zoomableImgs.forEach(img => {
+                img.style.cursor = 'zoom-in';
+                img.addEventListener('click', () => {
+                    modal.style.display = 'flex';
+                    modalImg.src = img.src;
+                    scale = 1;
+                    pointX = 0;
+                    pointY = 0;
+                    updateImageTransform();
+                });
+            });
+
+            // Cerrar modal
+            function closeModal() {
+                modal.style.display = 'none';
+                modalImg.src = '';
+            }
+
+            closeBtn.addEventListener('click', closeModal);
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) closeModal();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closeModal();
+            });
+
+            // Funcionalidad de Zoom con la rueda del ratón
+            modalImg.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const xs = (e.clientX - pointX) / scale;
+                const ys = (e.clientY - pointY) / scale;
+                
+                if (e.deltaY < 0) {
+                    scale *= 1.2;
+                } else {
+                    scale /= 1.2;
+                    if (scale < 1) scale = 1;
+                }
+
+                pointX = e.clientX - xs * scale;
+                pointY = e.clientY - ys * scale;
+
+                if (scale === 1) {
+                    pointX = 0;
+                    pointY = 0;
+                }
+
+                updateImageTransform();
+            });
+
+            // Funcionalidad de arrastre (Pan) cuando la imagen tiene zoom
+            modalImg.addEventListener('mousedown', (e) => {
+                if (scale === 1) return;
+                panning = true;
+                startX = e.clientX - pointX;
+                startY = e.clientY - pointY;
+                modalImg.style.cursor = 'grabbing';
+            });
+
+            window.addEventListener('mousemove', (e) => {
+                if (!panning) return;
+                pointX = e.clientX - startX;
+                pointY = e.clientY - startY;
+                updateImageTransform();
+            });
+
+            window.addEventListener('mouseup', () => {
+                panning = false;
+                modalImg.style.cursor = 'grab';
+            });
+
+            // Doble clic para resetear o hacer acercamiento rápido
+            modalImg.addEventListener('dblclick', (e) => {
+                if (scale > 1) {
+                    scale = 1;
+                    pointX = 0;
+                    pointY = 0;
+                } else {
+                    scale = 2.5;
+                }
+                updateImageTransform();
+            });
+
+            function updateImageTransform() {
+                modalImg.style.transform = `translate(${pointX}px, ${pointY}px) scale(${scale})`;
+                modalImg.style.cursor = scale > 1 ? 'grab' : 'zoom-in';
+            }
+        });
+    </script>
+    <script src="Script.js"></script>
+</body>
+</html>
